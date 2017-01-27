@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-root 'portfolio#index'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+	root 'portfolio#index'
+	get '/contact' => "portfolio#contact", as: :contact
+	get	'/projects' => "portfolio#projects", as: :projects
+	get	'/algorithms' => "portfolio#algorithms", as: :algorithms
 end

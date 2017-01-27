@@ -1,3 +1,17 @@
 // Place all the styles related to the Portfolio controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#background{
+	background: url("Europa.jpg") no-repeat fixed; 
+	background-size: cover;
+}
+#image {
+	width: 250px;
+	height: auto;
+	margin: 1% auto;
+}
+.partials{
+	border-radius: 10px;
+	margin: auto 10%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
